@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #2e7b18;
+    border: 6px solid #acda91;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #cfdfc6;
+
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-image: url("Photos/2.jpg");
+    color: #fff;
+    background-size: 100%;
+    
+}
+
+.x4 {
+    background-image: url("Photos/4.jpg");
+    color: #fff;
+    background-size: 100%;
+}
+
+.x8 {
+    background-image: url("Photos/8.jpg");
+    color: white;
+    background-size: 100%;
+}
+
+.x16{
+    background-image: url("Photos/16.jpg");
+    color: white;
+    background-size: 100%;
+}
+
+.x32{
+    background-image: url("Photos/32.jpg");
+    color: white;
+    background-size: 100%;
+}
+
+.x64{
+    background-image: url("Photos/64.jpg");
+    color: white;
+    background-size: 100%;
+}
+
+.x128{
+    background-image: url("Photos/128.jpg");
+    color: white;
+    background-size: 100%;
+}
+
+.x256{
+    background-image: url("Photos/256.jpq.JPG");
+    color: white;
+    background-size: 100%;
+}
+
+.x512{
+    background-image: url("Photos/512.jpg.HEIC");
+    color: white;
+    background-size: 100%;
+}
+
+.x1024{
+    background-image: url("Photos/1024.jpg");
+    color: white;
+    background-size: 100%;
+}
+
+.x2048{
+    background-image: url("Photos/2048.heic");
+    color: white;
+    background-size: 100%;
+}
+
+.x4096 {
+    background-image: url("Photos/4096.jpg");
+    color: white;
+    background-size: 100%;
+}
+
+.x8192 {
+    background-image: url("Photos/8192.heic");
+    color: white;
+    background-size: 100%;
+}
+
